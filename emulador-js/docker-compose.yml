@@ -1,0 +1,25 @@
+version: "3.7"
+services:
+
+  app_proxy:
+    environment:
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: emulatorjs_server_1 # ajuste o nome do serviço do emulador JS conforme necessário
+      APP_PORT: 3100
+
+  emulatorjs:
+    image: lscr.io/linuxserver/emulatorjs:latest
+    container_name: emulatorjs
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_Paulo
+      - SUBFOLDER=/ # opcional
+    volumes:
+      - /caminho/para/seu/config:/config
+      - /caminho/para/seus/dados:/data
+    ports:
+      - 3100:3000
+      - 8100:80
+      - 4001:4001 # opcional
+    restart: unless-stopped

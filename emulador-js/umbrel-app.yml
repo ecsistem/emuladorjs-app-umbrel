@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: emulador-js
+name: Emulador JS
+tagline: Emulador de jogos em JavaScript
+icon: https://emulatorjs.org/favicon.ico
+category: Development
+version: "1.0.0"
+port: 3100
+description: >-
+   Emulador JS é uma plataforma de emulação de jogos em JavaScript, permitindo que você jogue seus jogos favoritos diretamente no seu navegador.
+
+developer: Emulador JS
+website: https://emulatorjs.org/
+submitter: Edson Costa
+submission: https://edsoncosta.online/
+repo: https://github.com/getumbrel/umbrel-hello-world-app
+support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
