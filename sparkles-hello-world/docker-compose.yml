@@ -17,3 +17,13 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=America/Sao_Paulo
+    ports:
+      - 3000:3000
+      - 4001:4001
+      - 88:80
+    privileged: true
+    restart: unless-stopped
+    volumes:
+      - /mnt/data/AppData/emulatorjs/config:/config
+      - /mnt/data/AppData/emulatorjs/data:/data
+      - /mnt/data/ROMS/nes:/data/nes/roms
