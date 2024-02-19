@@ -7,7 +7,8 @@ services:
       APP_HOST:  sparkles-emulatorjs_server_1 # ajuste o nome do serviço do emulador JS conforme necessário
       APP_PORT: 3100
 
-  emulatorjs:
+
+  server:
     image: lscr.io/linuxserver/emulatorjs:latest
     container_name: emulatorjs
     environment:
