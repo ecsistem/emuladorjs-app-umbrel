@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: ecsistem-emulatorjs # ajuste o nome do serviço do emulador JS conforme necessário
+      APP_HOST:  sparkles-emulatorjs # ajuste o nome do serviço do emulador JS conforme necessário
       APP_PORT: 3100
 
   emulatorjs:
