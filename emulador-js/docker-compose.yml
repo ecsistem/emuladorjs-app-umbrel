@@ -10,7 +10,8 @@ services:
 
   server:
     image: lscr.io/linuxserver/emulatorjs:latest
-    container_name: emulatorjs
+    user: "1000:1000"
+    init: true
     environment:
       - PUID=1000
       - PGID=1000
