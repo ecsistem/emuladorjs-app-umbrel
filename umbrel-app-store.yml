@@ -1,2 +1,2 @@
 id: "ecsistem" # Escolha o ID da sua App Store.Isso deve conter apenas alfabetos ("A a Z") e traços ("-").
-name: "EC.Store" # Escolha o nome da sua loja de aplicativos.Ele aparecerá na interface do usuário como "<name> App Store".
+name: "ECStore" # Escolha o nome da sua loja de aplicativos.Ele aparecerá na interface do usuário como "<name> App Store".
