@@ -9,6 +9,11 @@ services:
       APP_PORT: 3000
     
   server:
-    image: getumbrel/community-app-store-hello-world:latest
+    # image: getumbrel/community-app-store-hello-world:latest
+    image: lscr.io/linuxserver/emulatorjs:latest
     user: "1000:1000"
     init: true
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Sao_Paulo
