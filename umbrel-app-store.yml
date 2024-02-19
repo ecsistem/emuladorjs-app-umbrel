@@ -1,2 +1,2 @@
-id: "ecstore" # Escolha o ID da sua App Store.Isso deve conter apenas alfabetos ("A a Z") e traços ("-").
-name: "ecstore" # Escolha o nome da sua loja de aplicativos.Ele aparecerá na interface do usuário como "<name> App Store".
+id: "sparkles" # Choose the ID for your app store. This should contain only alphabets ("a to z") and dashes ("-").
+name: "Sparkles" # Choose the name of your app store. It will show up in the UI as "<name> App Store".
